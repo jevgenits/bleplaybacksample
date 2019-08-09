@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:BLECentralSample.xcodeproj">
+      location = "self:BLECentralApp.xcodeproj">
    </FileRef>
 </Workspace>

@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E37C3CA22FAEB2400CBCC0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E37C3C922FAEB2400CBCC0A /* AppDelegate.swift */; };
-		1E37C3CC22FAEB2400CBCC0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E37C3CB22FAEB2400CBCC0A /* ViewController.swift */; };
-		1E37C3CF22FAEB2400CBCC0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E37C3CD22FAEB2400CBCC0A /* Main.storyboard */; };
-		1E37C3D122FAEB2500CBCC0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E37C3D022FAEB2500CBCC0A /* Assets.xcassets */; };
-		1E37C3D422FAEB2500CBCC0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E37C3D222FAEB2500CBCC0A /* LaunchScreen.storyboard */; };
+		1EB0E08222FD4F3C00935472 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB0E08122FD4F3C00935472 /* AppDelegate.m */; };
+		1EB0E08522FD4F3C00935472 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB0E08422FD4F3C00935472 /* ViewController.m */; };
+		1EB0E08822FD4F3C00935472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EB0E08622FD4F3C00935472 /* Main.storyboard */; };
+		1EB0E08A22FD4F3D00935472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EB0E08922FD4F3D00935472 /* Assets.xcassets */; };
+		1EB0E08D22FD4F3D00935472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EB0E08B22FD4F3D00935472 /* LaunchScreen.storyboard */; };
+		1EB0E09022FD4F3D00935472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB0E08F22FD4F3D00935472 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1E37C3C622FAEB2400CBCC0A /* BLEPeripheralSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEPeripheralSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E37C3C922FAEB2400CBCC0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E37C3CB22FAEB2400CBCC0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1E37C3CE22FAEB2400CBCC0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1E37C3D022FAEB2500CBCC0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1E37C3D322FAEB2500CBCC0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1E37C3D522FAEB2500CBCC0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EB0E07D22FD4F3C00935472 /* BLECentralApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLECentralApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EB0E08022FD4F3C00935472 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1EB0E08122FD4F3C00935472 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1EB0E08322FD4F3C00935472 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1EB0E08422FD4F3C00935472 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1EB0E08722FD4F3C00935472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EB0E08922FD4F3D00935472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EB0E08C22FD4F3D00935472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EB0E08E22FD4F3D00935472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EB0E08F22FD4F3D00935472 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1E37C3C322FAEB2400CBCC0A /* Frameworks */ = {
+		1EB0E07A22FD4F3C00935472 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +39,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E37C3BD22FAEB2400CBCC0A = {
+		1EB0E07422FD4F3C00935472 = {
 			isa = PBXGroup;
 			children = (
-				1E37C3C822FAEB2400CBCC0A /* BLEPeripheralSample */,
-				1E37C3C722FAEB2400CBCC0A /* Products */,
+				1EB0E07F22FD4F3C00935472 /* BLECentralApp */,
+				1EB0E07E22FD4F3C00935472 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1E37C3C722FAEB2400CBCC0A /* Products */ = {
+		1EB0E07E22FD4F3C00935472 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1E37C3C622FAEB2400CBCC0A /* BLEPeripheralSample.app */,
+				1EB0E07D22FD4F3C00935472 /* BLECentralApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1E37C3C822FAEB2400CBCC0A /* BLEPeripheralSample */ = {
+		1EB0E07F22FD4F3C00935472 /* BLECentralApp */ = {
 			isa = PBXGroup;
 			children = (
-				1E37C3C922FAEB2400CBCC0A /* AppDelegate.swift */,
-				1E37C3CB22FAEB2400CBCC0A /* ViewController.swift */,
-				1E37C3CD22FAEB2400CBCC0A /* Main.storyboard */,
-				1E37C3D022FAEB2500CBCC0A /* Assets.xcassets */,
-				1E37C3D222FAEB2500CBCC0A /* LaunchScreen.storyboard */,
-				1E37C3D522FAEB2500CBCC0A /* Info.plist */,
+				1EB0E08022FD4F3C00935472 /* AppDelegate.h */,
+				1EB0E08122FD4F3C00935472 /* AppDelegate.m */,
+				1EB0E08322FD4F3C00935472 /* ViewController.h */,
+				1EB0E08422FD4F3C00935472 /* ViewController.m */,
+				1EB0E08622FD4F3C00935472 /* Main.storyboard */,
+				1EB0E08922FD4F3D00935472 /* Assets.xcassets */,
+				1EB0E08B22FD4F3D00935472 /* LaunchScreen.storyboard */,
+				1EB0E08E22FD4F3D00935472 /* Info.plist */,
+				1EB0E08F22FD4F3D00935472 /* main.m */,
 			);
-			path = BLEPeripheralSample;
+			path = BLECentralApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1E37C3C522FAEB2400CBCC0A /* BLEPeripheralSample */ = {
+		1EB0E07C22FD4F3C00935472 /* BLECentralApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E37C3D822FAEB2500CBCC0A /* Build configuration list for PBXNativeTarget "BLEPeripheralSample" */;
+			buildConfigurationList = 1EB0E09322FD4F3D00935472 /* Build configuration list for PBXNativeTarget "BLECentralApp" */;
 			buildPhases = (
-				1E37C3C222FAEB2400CBCC0A /* Sources */,
-				1E37C3C322FAEB2400CBCC0A /* Frameworks */,
-				1E37C3C422FAEB2400CBCC0A /* Resources */,
+				1EB0E07922FD4F3C00935472 /* Sources */,
+				1EB0E07A22FD4F3C00935472 /* Frameworks */,
+				1EB0E07B22FD4F3C00935472 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BLEPeripheralSample;
-			productName = BLEPeripheralSample;
-			productReference = 1E37C3C622FAEB2400CBCC0A /* BLEPeripheralSample.app */;
+			name = BLECentralApp;
+			productName = BLECentralApp;
+			productReference = 1EB0E07D22FD4F3C00935472 /* BLECentralApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1E37C3BE22FAEB2400CBCC0A /* Project object */ = {
+		1EB0E07522FD4F3C00935472 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Jevgeni Tsaikin";
 				TargetAttributes = {
-					1E37C3C522FAEB2400CBCC0A = {
+					1EB0E07C22FD4F3C00935472 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 1E37C3C122FAEB2400CBCC0A /* Build configuration list for PBXProject "BLEPeripheralSample" */;
+			buildConfigurationList = 1EB0E07822FD4F3C00935472 /* Build configuration list for PBXProject "BLECentralApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +113,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 1E37C3BD22FAEB2400CBCC0A;
-			productRefGroup = 1E37C3C722FAEB2400CBCC0A /* Products */;
+			mainGroup = 1EB0E07422FD4F3C00935472;
+			productRefGroup = 1EB0E07E22FD4F3C00935472 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1E37C3C522FAEB2400CBCC0A /* BLEPeripheralSample */,
+				1EB0E07C22FD4F3C00935472 /* BLECentralApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1E37C3C422FAEB2400CBCC0A /* Resources */ = {
+		1EB0E07B22FD4F3C00935472 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E37C3D422FAEB2500CBCC0A /* LaunchScreen.storyboard in Resources */,
-				1E37C3D122FAEB2500CBCC0A /* Assets.xcassets in Resources */,
-				1E37C3CF22FAEB2400CBCC0A /* Main.storyboard in Resources */,
+				1EB0E08D22FD4F3D00935472 /* LaunchScreen.storyboard in Resources */,
+				1EB0E08A22FD4F3D00935472 /* Assets.xcassets in Resources */,
+				1EB0E08822FD4F3C00935472 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1E37C3C222FAEB2400CBCC0A /* Sources */ = {
+		1EB0E07922FD4F3C00935472 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E37C3CC22FAEB2400CBCC0A /* ViewController.swift in Sources */,
-				1E37C3CA22FAEB2400CBCC0A /* AppDelegate.swift in Sources */,
+				1EB0E08522FD4F3C00935472 /* ViewController.m in Sources */,
+				1EB0E09022FD4F3D00935472 /* main.m in Sources */,
+				1EB0E08222FD4F3C00935472 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1E37C3CD22FAEB2400CBCC0A /* Main.storyboard */ = {
+		1EB0E08622FD4F3C00935472 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1E37C3CE22FAEB2400CBCC0A /* Base */,
+				1EB0E08722FD4F3C00935472 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1E37C3D222FAEB2500CBCC0A /* LaunchScreen.storyboard */ = {
+		1EB0E08B22FD4F3D00935472 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1E37C3D322FAEB2500CBCC0A /* Base */,
+				1EB0E08C22FD4F3D00935472 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +169,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1E37C3D622FAEB2500CBCC0A /* Debug */ = {
+		1EB0E09122FD4F3D00935472 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -218,12 +225,10 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		1E37C3D722FAEB2500CBCC0A /* Release */ = {
+		1EB0E09222FD4F3D00935472 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -272,44 +277,40 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		1E37C3D922FAEB2500CBCC0A /* Debug */ = {
+		1EB0E09422FD4F3D00935472 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZZRHMHG4ZV;
-				INFOPLIST_FILE = BLEPeripheralSample/Info.plist;
+				INFOPLIST_FILE = BLECentralApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.jevgeni.BLEPeripheralSample;
+				PRODUCT_BUNDLE_IDENTIFIER = net.jevgeni.BLECentralApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1E37C3DA22FAEB2500CBCC0A /* Release */ = {
+		1EB0E09522FD4F3D00935472 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZZRHMHG4ZV;
-				INFOPLIST_FILE = BLEPeripheralSample/Info.plist;
+				INFOPLIST_FILE = BLECentralApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.jevgeni.BLEPeripheralSample;
+				PRODUCT_BUNDLE_IDENTIFIER = net.jevgeni.BLECentralApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -317,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E37C3C122FAEB2400CBCC0A /* Build configuration list for PBXProject "BLEPeripheralSample" */ = {
+		1EB0E07822FD4F3C00935472 /* Build configuration list for PBXProject "BLECentralApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E37C3D622FAEB2500CBCC0A /* Debug */,
-				1E37C3D722FAEB2500CBCC0A /* Release */,
+				1EB0E09122FD4F3D00935472 /* Debug */,
+				1EB0E09222FD4F3D00935472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1E37C3D822FAEB2500CBCC0A /* Build configuration list for PBXNativeTarget "BLEPeripheralSample" */ = {
+		1EB0E09322FD4F3D00935472 /* Build configuration list for PBXNativeTarget "BLECentralApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E37C3D922FAEB2500CBCC0A /* Debug */,
-				1E37C3DA22FAEB2500CBCC0A /* Release */,
+				1EB0E09422FD4F3D00935472 /* Debug */,
+				1EB0E09522FD4F3D00935472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1E37C3BE22FAEB2400CBCC0A /* Project object */;
+	rootObject = 1EB0E07522FD4F3C00935472 /* Project object */;
 }
