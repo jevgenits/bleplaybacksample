@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:BLEPeripheralSample/BLEPeripheralSample.xcodeproj">
+      location = "group:BLEPeripheralApp/BLEPeripheralApp.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:BLEPeripheralSample/../BLECentralSample/BLECentralSample.xcodeproj">
+      location = "group:BLECentralApp/BLECentralApp.xcodeproj">
    </FileRef>
 </Workspace>
