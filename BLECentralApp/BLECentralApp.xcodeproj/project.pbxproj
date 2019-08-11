@@ -13,6 +13,10 @@
 		1EB0E08A22FD4F3D00935472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EB0E08922FD4F3D00935472 /* Assets.xcassets */; };
 		1EB0E08D22FD4F3D00935472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EB0E08B22FD4F3D00935472 /* LaunchScreen.storyboard */; };
 		1EB0E09022FD4F3D00935472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB0E08F22FD4F3D00935472 /* main.m */; };
+		1ED7919A22FDBD3400579CCE /* BLECentralService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED7919922FDBD3400579CCE /* BLECentralService.m */; };
+		1ED7919D22FDBDEB00579CCE /* BLEPeripheralHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED7919C22FDBDEB00579CCE /* BLEPeripheralHandler.m */; };
+		1ED791A322FDBF7400579CCE /* BLEAudioService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED791A222FDBF7400579CCE /* BLEAudioService.m */; };
+		1ED791A522FE208500579CCE /* sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1ED791A422FE208400579CCE /* sample.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		1EB0E08C22FD4F3D00935472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EB0E08E22FD4F3D00935472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EB0E08F22FD4F3D00935472 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1ED7919822FDBD3400579CCE /* BLECentralService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLECentralService.h; sourceTree = "<group>"; };
+		1ED7919922FDBD3400579CCE /* BLECentralService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLECentralService.m; sourceTree = "<group>"; };
+		1ED7919B22FDBDEB00579CCE /* BLEPeripheralHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLEPeripheralHandler.h; sourceTree = "<group>"; };
+		1ED7919C22FDBDEB00579CCE /* BLEPeripheralHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEPeripheralHandler.m; sourceTree = "<group>"; };
+		1ED7919E22FDBE9200579CCE /* BLEConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLEConstants.h; sourceTree = "<group>"; };
+		1ED791A122FDBF7400579CCE /* BLEAudioService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLEAudioService.h; sourceTree = "<group>"; };
+		1ED791A222FDBF7400579CCE /* BLEAudioService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEAudioService.m; sourceTree = "<group>"; };
+		1ED791A422FE208400579CCE /* sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +75,18 @@
 				1EB0E08322FD4F3C00935472 /* ViewController.h */,
 				1EB0E08422FD4F3C00935472 /* ViewController.m */,
 				1EB0E08622FD4F3C00935472 /* Main.storyboard */,
+				1ED791A422FE208400579CCE /* sample.mp3 */,
 				1EB0E08922FD4F3D00935472 /* Assets.xcassets */,
 				1EB0E08B22FD4F3D00935472 /* LaunchScreen.storyboard */,
 				1EB0E08E22FD4F3D00935472 /* Info.plist */,
 				1EB0E08F22FD4F3D00935472 /* main.m */,
+				1ED7919E22FDBE9200579CCE /* BLEConstants.h */,
+				1ED7919822FDBD3400579CCE /* BLECentralService.h */,
+				1ED7919922FDBD3400579CCE /* BLECentralService.m */,
+				1ED7919B22FDBDEB00579CCE /* BLEPeripheralHandler.h */,
+				1ED7919C22FDBDEB00579CCE /* BLEPeripheralHandler.m */,
+				1ED791A122FDBF7400579CCE /* BLEAudioService.h */,
+				1ED791A222FDBF7400579CCE /* BLEAudioService.m */,
 			);
 			path = BLECentralApp;
 			sourceTree = "<group>";
@@ -130,6 +150,7 @@
 			files = (
 				1EB0E08D22FD4F3D00935472 /* LaunchScreen.storyboard in Resources */,
 				1EB0E08A22FD4F3D00935472 /* Assets.xcassets in Resources */,
+				1ED791A522FE208500579CCE /* sample.mp3 in Resources */,
 				1EB0E08822FD4F3C00935472 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,8 +163,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EB0E08522FD4F3C00935472 /* ViewController.m in Sources */,
+				1ED7919D22FDBDEB00579CCE /* BLEPeripheralHandler.m in Sources */,
+				1ED791A322FDBF7400579CCE /* BLEAudioService.m in Sources */,
 				1EB0E09022FD4F3D00935472 /* main.m in Sources */,
 				1EB0E08222FD4F3C00935472 /* AppDelegate.m in Sources */,
+				1ED7919A22FDBD3400579CCE /* BLECentralService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

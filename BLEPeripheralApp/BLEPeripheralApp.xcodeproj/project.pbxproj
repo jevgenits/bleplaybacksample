@@ -8,24 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		1EB0E06022FD4F1800935472 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB0E05F22FD4F1800935472 /* AppDelegate.m */; };
-		1EB0E06322FD4F1800935472 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB0E06222FD4F1800935472 /* ViewController.m */; };
+		1EB0E06322FD4F1800935472 /* PeripheralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB0E06222FD4F1800935472 /* PeripheralViewController.m */; };
 		1EB0E06622FD4F1800935472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EB0E06422FD4F1800935472 /* Main.storyboard */; };
 		1EB0E06822FD4F1B00935472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EB0E06722FD4F1B00935472 /* Assets.xcassets */; };
 		1EB0E06B22FD4F1B00935472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EB0E06922FD4F1B00935472 /* LaunchScreen.storyboard */; };
 		1EB0E06E22FD4F1B00935472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB0E06D22FD4F1B00935472 /* main.m */; };
+		1ED7919722FD96F700579CCE /* BLEPeripheralService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED7919622FD96F700579CCE /* BLEPeripheralService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1EB0E05B22FD4F1800935472 /* BLEPeripheralApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEPeripheralApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EB0E05E22FD4F1800935472 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1EB0E05F22FD4F1800935472 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1EB0E06122FD4F1800935472 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1EB0E06222FD4F1800935472 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1EB0E06122FD4F1800935472 /* PeripheralViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeripheralViewController.h; sourceTree = "<group>"; };
+		1EB0E06222FD4F1800935472 /* PeripheralViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeripheralViewController.m; sourceTree = "<group>"; };
 		1EB0E06522FD4F1800935472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EB0E06722FD4F1B00935472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EB0E06A22FD4F1B00935472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EB0E06C22FD4F1B00935472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EB0E06D22FD4F1B00935472 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1ED7919522FD96F700579CCE /* BLEPeripheralService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLEPeripheralService.h; sourceTree = "<group>"; };
+		1ED7919622FD96F700579CCE /* BLEPeripheralService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEPeripheralService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +63,15 @@
 			children = (
 				1EB0E05E22FD4F1800935472 /* AppDelegate.h */,
 				1EB0E05F22FD4F1800935472 /* AppDelegate.m */,
-				1EB0E06122FD4F1800935472 /* ViewController.h */,
-				1EB0E06222FD4F1800935472 /* ViewController.m */,
+				1EB0E06122FD4F1800935472 /* PeripheralViewController.h */,
+				1EB0E06222FD4F1800935472 /* PeripheralViewController.m */,
 				1EB0E06422FD4F1800935472 /* Main.storyboard */,
 				1EB0E06722FD4F1B00935472 /* Assets.xcassets */,
 				1EB0E06922FD4F1B00935472 /* LaunchScreen.storyboard */,
 				1EB0E06C22FD4F1B00935472 /* Info.plist */,
 				1EB0E06D22FD4F1B00935472 /* main.m */,
+				1ED7919522FD96F700579CCE /* BLEPeripheralService.h */,
+				1ED7919622FD96F700579CCE /* BLEPeripheralService.m */,
 			);
 			path = BLEPeripheralApp;
 			sourceTree = "<group>";
@@ -141,7 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EB0E06322FD4F1800935472 /* ViewController.m in Sources */,
+				1EB0E06322FD4F1800935472 /* PeripheralViewController.m in Sources */,
+				1ED7919722FD96F700579CCE /* BLEPeripheralService.m in Sources */,
 				1EB0E06E22FD4F1B00935472 /* main.m in Sources */,
 				1EB0E06022FD4F1800935472 /* AppDelegate.m in Sources */,
 			);
