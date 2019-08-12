@@ -62,12 +62,16 @@
     [self stopPlayback];
 }
 
-- (void)startPlayback
+- (void)startPlayback:(BOOL)withMixin
 {
     NSLog(@"BLE Audio: Starting playback");
     NSError *categoryError = nil;
-//    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback withOptions:AVAudioSessionCategoryOptionMixWithOthers error:&categoryError];
-    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback withOptions:0 error:&categoryError];
+    
+    if (withMixin) {
+        [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback withOptions:AVAudioSessionCategoryOptionMixWithOthers error:&categoryError];
+    } else {
+        [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback withOptions:0 error:&categoryError];
+    }
     
     if (categoryError) {
         NSLog(@"%@", [NSString stringWithFormat:@"BLE: Failed to set category: %@", categoryError.localizedDescription]);

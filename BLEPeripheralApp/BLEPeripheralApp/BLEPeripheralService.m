@@ -73,21 +73,27 @@ static NSString * const BLEPeripheralCharacteristicUUIDString = @"C8C6F2F4-CB6C-
 - (void)sendPlay
 {
     NSLog(@"BLE: sending play message");
-    if (self.peripheralManager.state == CBManagerStatePoweredOn) {
-        [self updateCharacteristicWithCommand:@"play"];
-    }
+    [self updateCharacteristicWithCommand:@"play"];
+}
+
+- (void)sendMixinPlay
+{
+    NSLog(@"BLE: sending play mixin message");
+    [self updateCharacteristicWithCommand:@"playmixin"];
 }
 
 - (void)sendStop
 {
     NSLog(@"BLE: sending stop message");
-    if (self.peripheralManager.state == CBManagerStatePoweredOn) {
-        [self updateCharacteristicWithCommand:@"stop"];
-    }
+    [self updateCharacteristicWithCommand:@"stop"];
 }
 
 - (void)updateCharacteristicWithCommand:(nonnull NSString *)command
 {
+    if (self.peripheralManager.state != CBManagerStatePoweredOn) {
+        return;
+    }
+    
     if (!command) {
         return;
     }

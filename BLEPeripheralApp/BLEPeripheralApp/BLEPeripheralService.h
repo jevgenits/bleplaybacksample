@@ -33,6 +33,7 @@ typedef NS_ENUM(NSUInteger, PeripheralServiceState) {
 - (void)stopService;
 
 - (void)sendPlay;
+- (void)sendMixinPlay;
 - (void)sendStop;
 
 @end

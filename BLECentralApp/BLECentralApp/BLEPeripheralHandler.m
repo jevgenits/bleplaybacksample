@@ -97,7 +97,9 @@
     if (data && data.length > 0) {
         NSString * const value = [NSString stringWithUTF8String:[data bytes]];
         if ([value isEqual: @"play"]) {
-            [[BLEAudioService sharedInstance] startPlayback];
+            [[BLEAudioService sharedInstance] startPlayback:NO];
+        } else if ([value isEqual: @"playmixin"]) {
+            [[BLEAudioService sharedInstance] startPlayback:YES];
         } else if ([value isEqual: @"stop"])  {
             [[BLEAudioService sharedInstance] stopPlayback];
         }

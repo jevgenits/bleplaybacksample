@@ -13,6 +13,7 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *startServiceButton;
 @property (weak, nonatomic) IBOutlet UIButton *sendStartPlaybackButton;
+@property (weak, nonatomic) IBOutlet UIButton *sendStartMixinPlaybackButton;
 @property (weak, nonatomic) IBOutlet UIButton *sendStopPlaybackButton;
 @property (weak, nonatomic) IBOutlet UIButton *stopServiceButton;
 
@@ -41,6 +42,11 @@
     [self.peripheralService sendPlay];
 }
 
+- (IBAction)sendStartMixinPlaybackTapped:(id)sender
+{
+    [self.peripheralService sendMixinPlay];
+}
+
 - (IBAction)sendStopPlaybackTapped:(id)sender
 {
     [self.peripheralService sendStop];
@@ -57,6 +63,7 @@
         case PeripheralServiceStateOffline:
             [self.startServiceButton setEnabled:YES];
             [self.sendStartPlaybackButton setEnabled:NO];
+            [self.sendStartMixinPlaybackButton setEnabled:NO];
             [self.sendStopPlaybackButton setEnabled:NO];
             [self.stopServiceButton setEnabled:NO];
             
@@ -65,6 +72,7 @@
         case PeripheralServiceStateConnected:
             [self.startServiceButton setEnabled:NO];
             [self.sendStartPlaybackButton setEnabled:YES];
+            [self.sendStartMixinPlaybackButton setEnabled:YES];
             [self.sendStopPlaybackButton setEnabled:YES];
             [self.stopServiceButton setEnabled:YES];
             
@@ -73,6 +81,7 @@
         case PeripheralServiceStateAdvertising:
             [self.startServiceButton setEnabled:NO];
             [self.sendStartPlaybackButton setEnabled:NO];
+            [self.sendStartMixinPlaybackButton setEnabled:NO];
             [self.sendStopPlaybackButton setEnabled:NO];
             [self.stopServiceButton setEnabled:YES];
             
@@ -81,6 +90,7 @@
         case PeripheralServiceStateOnline:
             [self.startServiceButton setEnabled:YES];
             [self.sendStartPlaybackButton setEnabled:NO];
+            [self.sendStartMixinPlaybackButton setEnabled:NO];
             [self.sendStopPlaybackButton setEnabled:NO];
             [self.stopServiceButton setEnabled:NO];
             

@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)sharedInstance;
 
-- (void)startPlayback;
+- (void)startPlayback:(BOOL)withMixin;
 - (void)stopPlayback;
 
 @end
