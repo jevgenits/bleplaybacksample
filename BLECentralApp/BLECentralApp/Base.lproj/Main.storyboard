@@ -19,23 +19,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="CPy-Vp-e0p">
-                                <rect key="frame" x="0.0" y="405" width="414" height="96.5"/>
+                                <rect key="frame" x="0.0" y="379.5" width="414" height="147.5"/>
                                 <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🎶" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C55-pV-FV1">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="43"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aqw-O2-Not">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="51" width="414" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQz-ri-SiO">
-                                        <rect key="frame" x="0.0" y="28.5" width="414" height="30"/>
+                                        <rect key="frame" x="0.0" y="79.5" width="414" height="30"/>
                                         <state key="normal" title="Connect to peripheral"/>
                                         <connections>
                                             <action selector="connectTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fgD-CN-EUq"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CFZ-DU-Vxi">
-                                        <rect key="frame" x="0.0" y="66.5" width="414" height="30"/>
+                                        <rect key="frame" x="0.0" y="117.5" width="414" height="30"/>
                                         <state key="normal" title="Disconnect"/>
                                         <connections>
                                             <action selector="disconnectTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sjd-re-wRM"/>

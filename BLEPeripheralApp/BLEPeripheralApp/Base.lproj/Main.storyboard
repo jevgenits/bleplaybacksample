@@ -19,44 +19,50 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="vLx-ey-H2e">
-                                <rect key="frame" x="0.0" y="318" width="414" height="270.5"/>
+                                <rect key="frame" x="0.0" y="286.5" width="414" height="333.5"/>
                                 <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🎧" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iiy-9h-MRC">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="43"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Grh-Yo-dYX">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="63" width="414" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8w9-iY-OBH">
-                                        <rect key="frame" x="0.0" y="40.5" width="414" height="30"/>
+                                        <rect key="frame" x="0.0" y="103.5" width="414" height="30"/>
                                         <state key="normal" title="Start Service"/>
                                         <connections>
                                             <action selector="startServiceTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xW0-1p-SDy"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="krT-TU-0gM">
-                                        <rect key="frame" x="0.0" y="90.5" width="414" height="30"/>
+                                        <rect key="frame" x="0.0" y="153.5" width="414" height="30"/>
                                         <state key="normal" title="Start normal playback"/>
                                         <connections>
                                             <action selector="sendStartPlaybackTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z9c-pJ-vup"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1E9-Ec-Bgo">
-                                        <rect key="frame" x="0.0" y="140.5" width="414" height="30"/>
+                                        <rect key="frame" x="0.0" y="203.5" width="414" height="30"/>
                                         <state key="normal" title="Start mixin playback"/>
                                         <connections>
                                             <action selector="sendStartMixinPlaybackTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fKM-gO-tHj"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4m7-jb-YEH">
-                                        <rect key="frame" x="0.0" y="190.5" width="414" height="30"/>
+                                        <rect key="frame" x="0.0" y="253.5" width="414" height="30"/>
                                         <state key="normal" title="Stop playback"/>
                                         <connections>
                                             <action selector="sendStopPlaybackTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bQK-tX-I00"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZj-CN-SIy">
-                                        <rect key="frame" x="0.0" y="240.5" width="414" height="30"/>
+                                        <rect key="frame" x="0.0" y="303.5" width="414" height="30"/>
                                         <state key="normal" title="Stop Service"/>
                                         <connections>
                                             <action selector="stopServiceTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aSu-8u-b7j"/>
