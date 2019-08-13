@@ -1,4 +1,4 @@
-# bleplaybacksample
+# Bluetooth Low Energy (BLE) audio playback sample
 A sample code to demonstrate how to start the playback over Bluetooth Low Energy communication.
 
 BLEPeripheralApp - iOS app which represents a generic BLE hardware device (i.e headphones)
